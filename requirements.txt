@@ -1,6 +1,4 @@
 openai-whisper
-openai-whisper-small
-openai-whisper-medium
 ffmpeg-python
 pysrt
 boto3==1.28.62
