@@ -1,0 +1,7 @@
+| Feature               | AWS Stack          | Local Stack        |
+|-----------------------|--------------------|--------------------|
+| Cost                  | $1.50/hour        | Free               |
+| Accuracy              | 92%               | 85%               |  
+| Languages             | 75+               | 6 Indian languages|
+| Setup Complexity      | High              | Low               |
+| Best For              | Final Demo         | Development       |

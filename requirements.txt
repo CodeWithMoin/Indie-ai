@@ -1,0 +1,17 @@
+openai-whisper
+openai-whisper-small
+openai-whisper-medium
+ffmpeg-python
+pysrt
+boto3==1.28.62
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+transformers>=4.30.2
+datasets>=2.14.4
+accelerate>=0.21.0
+streamlit>=1.25.0
+peft>=0.4.0
+bitsandbytes>=0.41.1
+loralib>=0.1.1
+einops>=0.6.1
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
