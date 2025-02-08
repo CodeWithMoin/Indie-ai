@@ -5,6 +5,12 @@ import time
 import os
 import boto3
 
+# Set AWS credentials from Streamlit secrets
+os.environ["AWS_DEFAULT_REGION"] = st.secrets["AWS_DEFAULT_REGION"]
+os.environ["AWS_ACCESS_KEY_ID"] = st.secrets["AWS_ACCESS_KEY_ID"]
+os.environ["AWS_SECRET_ACCESS_KEY"] = st.secrets["AWS_SECRET_ACCESS_KEY"]
+os.environ["S3_BUCKET"] = st.secrets["S3_BUCKET"]
+
 # Streamlit app
 def app():
     st.title("Indie AI")
